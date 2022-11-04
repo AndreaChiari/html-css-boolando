@@ -1,0 +1,21 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*utilities */
+*{
+    font-family: sans-serif;
+}
+
+/* colors */
+
+.red{
+    color: rgb(255,0,0);
+}
+
+.green{
+    color: rgb(0,128,0);
+}
