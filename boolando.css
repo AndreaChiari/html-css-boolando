@@ -27,6 +27,13 @@
     color:red ;
 }
 
+.img-change{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
 
 /* colors */
 
@@ -40,7 +47,7 @@ header{
     position: fixed;
     right: 0;
     left: 0;
-    z-index: 1;
+    z-index: 3;
 
 }
 
@@ -90,6 +97,7 @@ main{
     left: 0;
     bottom: 160px;
     background-color: rgb(255,0,0);
+    z-index: 2;
 }
 
 .label-green{
@@ -101,6 +109,8 @@ main{
     position: absolute;
     bottom: 160px;
     background-color: rgb(0,128,0);
+    z-index: 2;
+    
 }
 
 
@@ -108,11 +118,11 @@ main{
     height: 600px;
 }
 .card{
-    height: 600px;
+    height: 700px;
     width: 418px;
     position: relative;
     padding-bottom: 38px;
-}
+  }
 
 #lastlable{
     left:0
@@ -125,6 +135,37 @@ main{
     padding: 3%;
     background-color: white;
     font-size: 25px;
+    z-index: 2;
 }
 
+.heart:hover{
+    color: red;
+    
+}
 
+#fittee{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    
+}
+
+.card:hover #fittee{
+    display: inline;
+    
+}
+
+#guess{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.card:hover #guess{
+    display: inline;
+    
+}
