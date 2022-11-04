@@ -9,7 +9,19 @@
 *{
     font-family: sans-serif;
 }
+.flex{
+    display: flex;
+}
 
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-end{
+    display: flex;
+    justify-content: flex-end
+}
 /* colors */
 
 .red{
@@ -18,4 +30,36 @@
 
 .green{
     color: rgb(0,128,0);
+}
+
+/* header */
+
+header{
+    background-color: rgb(255,105,0);
+    height: 100px;
+    box-shadow: 1px 3px 3px #999;
+}
+
+.header-container{
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.container{
+    height: 100%;
+    width: 33%;
+    flex-grow: 1;
+    align-items: center;
+    gap: 5px;
+}
+
+header a{
+    color: white;
+    text-decoration: none
+}
+
+.booleanlogo{
+    height: 30%;
 }
