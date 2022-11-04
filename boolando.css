@@ -22,15 +22,14 @@
     display: flex;
     justify-content: flex-end
 }
+
+.redtext{
+    color:red ;
+}
+
+
 /* colors */
 
-.red{
-    color: rgb(255,0,0);
-}
-
-.green{
-    color: rgb(0,128,0);
-}
 
 /* header */
 
@@ -38,6 +37,11 @@ header{
     background-color: rgb(255,105,0);
     height: 100px;
     box-shadow: 1px 3px 3px #999;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1;
+
 }
 
 .header-container{
@@ -46,13 +50,14 @@ header{
     margin: auto;
     align-items: center;
     justify-content: space-between;
+    
 }
 .container{
     height: 100%;
     width: 33%;
     flex-grow: 1;
     align-items: center;
-    gap: 5px;
+    gap: 7px;
 }
 
 header a{
@@ -63,3 +68,63 @@ header a{
 .booleanlogo{
     height: 30%;
 }
+
+/* main */
+
+main{
+    padding-top: 180px;
+
+}
+.article{
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.label-red{
+    padding:5px 13px ;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 160px;
+    background-color: rgb(255,0,0);
+}
+
+.label-green{
+    padding:5px 8px ;
+    text-align: center;
+    vertical-align: middle;
+    left: 68px;
+    color: white;
+    position: absolute;
+    bottom: 160px;
+    background-color: rgb(0,128,0);
+}
+
+
+.card img{
+    height: 600px;
+}
+.card{
+    height: 600px;
+    width: 418px;
+    position: relative;
+    padding-bottom: 38px;
+}
+
+#lastlable{
+    left:0
+}
+
+.heart{
+    position: absolute;
+    right: 0;
+    top:10px;
+    padding: 3%;
+    background-color: white;
+    font-size: 25px;
+}
+
+
