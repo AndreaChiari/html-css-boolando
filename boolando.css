@@ -20,11 +20,16 @@
 
 .flex-end{
     display: flex;
-    justify-content: flex-end
+    justify-content: flex-end;
 }
 
-.redtext{
-    color:red ;
+.flex-start{
+    display: flex;
+    align-items: flex-start;
+}
+
+.fontsize25{
+    font-size: 25px;
 }
 
 .img-change{
@@ -35,8 +40,34 @@
     z-index: 1;
 }
 
+.paddingbottom10{
+   padding-bottom: 10px;
+}
+
+.paddingright15{
+    padding-right: 15px;
+ }
+
+.width100{
+    width: 100%;
+}
+
+.linethrough{
+    text-decoration: line-through;
+}
+
+.gap10{
+    gap: 10px;
+}
 /* colors */
 
+.redtext{
+    color:red ;
+}
+
+.white{
+    color: white;
+}
 
 /* header */
 
@@ -48,7 +79,7 @@ header{
     right: 0;
     left: 0;
     z-index: 3;
-
+    
 }
 
 .header-container{
@@ -80,6 +111,7 @@ header a{
 
 main{
     padding-top: 180px;
+    padding-bottom: 50px;
 
 }
 .article{
@@ -140,6 +172,9 @@ main{
 
 .heart:hover{
     color: red;
+
+
+    /* card hoover section */
     
 }
 
@@ -169,3 +204,86 @@ main{
     display: inline;
     
 }
+
+#fashiongirl{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    
+}
+
+.card:hover #fashiongirl{
+    display: inline;
+
+}
+
+#levis{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.card:hover #levis{
+    display: inline;
+
+}
+
+#pinkdress{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.card:hover #pinkdress{
+    display: inline;
+
+}
+
+#lastgirl{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.card:hover #lastgirl{
+    display: inline;
+
+}
+
+/* footer */
+
+footer{
+    height: 100px;
+    background-color: black;
+}
+
+.footercontainer{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+
+}
+
+.footertext{
+   
+    flex-basis: 50%;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.infosocials{
+    align-items: flex-end;
+    flex-basis: 50%;
+    flex-direction: column;
+    justify-content: center;
+}
+
